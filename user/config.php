@@ -11,7 +11,7 @@
 define( 'YOURLS_DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'YOURLS_DB_PASS', 'lovetwins' );
+define( 'YOURLS_DB_PASS', 'xxx' );
 
 /** The name of the database for YOURLS */
 define( 'YOURLS_DB_NAME', 'yourls' );
@@ -57,8 +57,8 @@ define( 'YOURLS_COOKIEKEY', 'modify this text with something random' );
  ** YOURLS will auto encrypt plain text passwords in this file
  ** Read http://yourls.org/userpassword for more information */
 $yourls_user_passwords = array(
-	'admin' => 'lovetwins',
-	'cat' => 'lovetwins',
+	'admin' => 'xxx',
+	'cat' => 'xxx',
 );
 
 /** Debug mode to output some internal information
