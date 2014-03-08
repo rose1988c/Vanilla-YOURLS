@@ -1,2 +1,1 @@
-Vanilla-YOURLS
-==============
+## YOURLS
