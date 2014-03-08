@@ -3,12 +3,12 @@
 ############
 
 # Configuration
-#user/*
-#!user/config-sample.php
-#.htaccess
-#*.config
-#*.conf
-#[Rr]obots.txt
+user/*
+!user/config-sample.php
+.htaccess
+*.config
+*.conf
+[Rr]obots.txt
 
 # Languages
 user/languages/*
