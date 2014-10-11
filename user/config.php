@@ -57,8 +57,8 @@ define( 'YOURLS_COOKIEKEY', 'modify this text with something random' );
  ** YOURLS will auto encrypt plain text passwords in this file
  ** Read http://yourls.org/userpassword for more information */
 $yourls_user_passwords = array(
-	'admin' => 'phpass:!2a!08!Hn5cI6Bj0In9AjzSoZ38l.k.aViHoD1ybYR.UkhnrNWKDRevlCgPS' /* Password encrypted by YOURLS */ ,
-	'cat' => 'phpass:!2a!08!hdlaXIP469Ay/l1QwU6X2OQOnZz5hr3deF5aV6fm2rPWfw4a5Z7cy' /* Password encrypted by YOURLS */ ,
+	'admin' => 'phpass:!2a!08!a7lg88fxduRWw2BppzhYVOiqohCzzo4B.BNxlyGHyjcHQArqapKsC' /* Password encrypted by YOURLS */  /* Password encrypted by YOURLS */ ,
+	'a308057848' => 'phpass:!2a!08!4Uk2sQJ.A7xam353T.ZLFe4ibGGPCYAzFuOcpxL0raPGJEl.zJm46' /* Password encrypted by YOURLS */ ,
 );
 
 /** Debug mode to output some internal information
