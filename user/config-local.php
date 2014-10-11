@@ -14,7 +14,7 @@ define( 'YOURLS_DB_USER', 'root' );
 define( 'YOURLS_DB_PASS', '' );
 
 /** The name of the database for YOURLS */
-define( 'YOURLS_DB_NAME', 'yourls' );
+define( 'YOURLS_DB_NAME', 'chenyunwen_yourls' );
 
 /** MySQL hostname.
  ** If using a non standard port, specify it like 'hostname:port', eg. 'localhost:9999' or '127.0.0.1:666' */
@@ -29,7 +29,7 @@ define( 'YOURLS_DB_PREFIX', 'yourls_' );
 
 /** YOURLS installation URL -- all lowercase and with no trailing slash.
  ** If you define it to "http://site.com", don't use "http://www.site.com" in your browser (and vice-versa) */
-define( 'YOURLS_SITE', 'http://url.4toolkit.com' );
+define( 'YOURLS_SITE', 'http://url.chenyunwen.cn' );
 
 /** Timezone GMT offset */
 define( 'YOURLS_HOURS_OFFSET', '+8' ); 
@@ -57,7 +57,8 @@ define( 'YOURLS_COOKIEKEY', 'modify this text with something random' );
  ** YOURLS will auto encrypt plain text passwords in this file
  ** Read http://yourls.org/userpassword for more information */
 $yourls_user_passwords = array(
-	'admin' => 'phpass:!2a!08!ZWNOarxFlPQBOU599qsizuaNSS0Lc05IjYS4dPZIsjnmrStbnSflO' /* Password encrypted by YOURLS */ ,
+	'admin' => 'phpass:!2a!08!VmYPmwyvweDNt16Ga5/Zb.ntP0jXumWzg6B5oZsZLSW3bsbGU2T9K' /* Password encrypted by YOURLS */ ,
+	'cat' => 'phpass:!2a!08!/Qfq1gRw7UEysrWLIkBjOuaZgdLeUZ8FvUqmT6xIkRqjM8trMfope' /* Password encrypted by YOURLS */ ,
 );
 
 /** Debug mode to output some internal information
@@ -81,7 +82,7 @@ define( 'YOURLS_URL_CONVERT', 36 );
 * Define here negative, unwanted or potentially misleading keywords.
 */
 $yourls_reserved_URL = array(
-	'porn', 'faggot', 'sex', 'nigger', 'fuck', 'cunt', 'dick', 'gay',
+	'porn', 'faggot', 'sex', 'nigger', 'fuck', 'cunt', 'dick', 'gay'
 );
 
 /*

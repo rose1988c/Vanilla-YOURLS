@@ -32,6 +32,12 @@ pages/*
 !user/*/index.html
 
 ############
+## Tests
+############
+
+tests/
+
+############
 ## Environnement
 ############
 
@@ -43,3 +49,6 @@ Desktop.ini
 
 # Mac crap
 .DS_Store
+
+.project
+.buildpath
