@@ -8,13 +8,13 @@
  */
 
 /** MySQL database username */
-define( 'YOURLS_DB_USER', 'root' );
+define( 'YOURLS_DB_USER', 'yoursadmin' );
 
 /** MySQL database password */
-define( 'YOURLS_DB_PASS', '' );
+define( 'YOURLS_DB_PASS', '2wsx8ik,' );
 
 /** The name of the database for YOURLS */
-define( 'YOURLS_DB_NAME', 'chenyunwen_yourls' );
+define( 'YOURLS_DB_NAME', 'cyw_yourls' );
 
 /** MySQL hostname.
  ** If using a non standard port, specify it like 'hostname:port', eg. 'localhost:9999' or '127.0.0.1:666' */
@@ -57,8 +57,8 @@ define( 'YOURLS_COOKIEKEY', 'modify this text with something random' );
  ** YOURLS will auto encrypt plain text passwords in this file
  ** Read http://yourls.org/userpassword for more information */
 $yourls_user_passwords = array(
-	'admin' => 'xxx',
-	'cat' => 'xxx',
+	'admin' => 'phpass:!2a!08!Hn5cI6Bj0In9AjzSoZ38l.k.aViHoD1ybYR.UkhnrNWKDRevlCgPS' /* Password encrypted by YOURLS */ ,
+	'cat' => 'phpass:!2a!08!hdlaXIP469Ay/l1QwU6X2OQOnZz5hr3deF5aV6fm2rPWfw4a5Z7cy' /* Password encrypted by YOURLS */ ,
 );
 
 /** Debug mode to output some internal information
