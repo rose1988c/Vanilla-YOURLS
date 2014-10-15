@@ -84,13 +84,8 @@ function ozh_toolbar_do( $args ) {
 <body>
 <div id="yourls-bar">
 	<div id="yourls-about">
-		Short link powered by <a href="http://yourls.org/">YOURLS</a> and created $created. $hits.
+		链接创建 $created. $hits.
 		<!-- $sql queries -->
-	</div>
-	
-	<div id="yourls-delicious">
-	<img src="http://static.delicious.com/img/delicious.small.gif" height="10" width="10" alt="Delicious" />
-	<a id="yourls-delicious-link" title="Bookmark on delicious" href="http://delicious.com/save" onclick="window.open('http://delicious.com/save?v=5&noui&jump=close&url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title), 'delicious','toolbar=no,width=550,height=550'); return false;"> Bookmark on Delicious</a>
 	</div>
 
 	<script type="text/javascript" id="topsy_global_settings">
@@ -107,8 +102,8 @@ function ozh_toolbar_do( $args ) {
 	</div>
 	
 	<div id="yourls-selfclose">
-		<a id="yourls-once" href="$url" title="Close this toolbar">close</a>
-		<a id="yourls-always" href="$url" title="Never show me this toolbar again">close</a>
+		<a id="yourls-once" href="$url" title="关闭工具条">close</a>
+		<a id="yourls-always" href="$url" title="永久不出现">close</a>
 		
 	</div>
 </div>
@@ -116,7 +111,6 @@ function ozh_toolbar_do( $args ) {
 <iframe id="yourls-frame" frameborder="0" noresize="noresize" src="$url" name="yourlsFrame"></iframe>
 <script type="text/javascript" src="$pluginurl/js/toolbar.js"></script>
 <script type="text/javascript" src="http://cdn.topsy.com/topsy.js?init=topsyWidgetCreator"></script>
-<script type="text/javascript" src="http://feeds.delicious.com/v2/json/urlinfo/$md5?callback=yourls_get_books"></script>
 </body>
 </html>
 PAGE;
