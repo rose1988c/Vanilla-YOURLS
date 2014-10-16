@@ -103,8 +103,9 @@ function ozh_toolbar_do( $args ) {
 	
 	<div id="yourls-selfclose">
 		<a id="yourls-once" href="$url" title="关闭工具条">close</a>
-		<a id="yourls-always" href="$url" title="永久不出现">close</a>
-		
+		<!-- 
+			<a id="yourls-always" href="$url" title="永久不出现">close</a>
+		-->
 	</div>
 </div>
 
@@ -114,7 +115,9 @@ function ozh_toolbar_do( $args ) {
 </body>
 </html>
 PAGE;
-	
+
+	//
+
 	// Don't forget to die, to interrupt the flow of normal events (ie redirecting to long URL)
 	die();
 }
