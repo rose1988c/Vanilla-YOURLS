@@ -17,7 +17,7 @@ body {
 	font-family: Verdana, Arial;
 	font-size: 12px;
 	position:absolute;
-	top:0;
+	bottom:0;
 	height:35px;
 	width:100%;
 	background:#e3f3ff url(../img/toolbar_bg.png) repeat-x bottom center;
