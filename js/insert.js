@@ -123,12 +123,6 @@ function go_stats(link) {
 	window.location=link;
 }
 
-// Cancel edition of a link
-function edit_link_hide(id) {
-	$("#edit-" + id).fadeOut(200, function(){
-		end_disable('#actions-'+id+' .button');
-	});
-}
 
 function jump(id){
 	var event = arguments.callee.caller.arguments[0] || window.event;
@@ -140,9 +134,20 @@ function keyUp(e) {
    var currKey=0,e=e||event;  
    currKey=e.keyCode||e.which||e.charCode;  
    var keyName = String.fromCharCode(currKey);  
-   alert("按键码: " + currKey + " 字符: " + keyName);  
+   //alert("按键码: " + currKey + " 字符: " + keyName);
+   if (currKey == 113) { //F12
+   	  $(".button_edit").click();
+   }
 }  
 document.onkeyup = keyUp; 
+
+
+// Cancel edition of a link
+function edit_link_hide(id) {
+	$("#edit-" + id).fadeOut(200, function(){
+		end_disable('#actions-'+id+' .button');
+	});
+}
 
 // Save edition of a link
 function edit_link_save(id) {
