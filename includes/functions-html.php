@@ -465,7 +465,7 @@ function yourls_table_edit_row( $keyword ) {
 function jump(key){
 	var event = arguments.callee.caller.arguments[0] || window.event;
 	if(event.keyCode == 13){
-		edit_link_save(key);
+		edit_link_save("'" + key + "'");
 	}
 }
 </script>
