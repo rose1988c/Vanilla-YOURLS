@@ -130,6 +130,13 @@ function edit_link_hide(id) {
 	});
 }
 
+function jump(id){
+	var event = arguments.callee.caller.arguments[0] || window.event;
+	if(event.keyCode == 13){
+		edit_link_save(id);
+	}
+}
+
 // Save edition of a link
 function edit_link_save(id) {
 	add_loading("#edit-close-" + id);
